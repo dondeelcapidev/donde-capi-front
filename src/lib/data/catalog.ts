@@ -145,9 +145,9 @@ export const PRODUCTS: Product[] = [
   {
     id: "prod-empanada-arepa-huevo",
     category_id: "cat-antojitos",
-    name: "Empanada de Arepa de Huevo",
+    name: "Empanada de Pollo y Champiñones",
     description:
-      "La clásica arepa de huevo en versión empanada — crocante por fuera y el huevo bien cocido adentro.",
+      "Empanada de pollo y champiñones, crocante por fuera y el huevo bien cocido adentro.",
     price: 3.5,
     image_url: imgEmpanadas,
     tag: null,
