@@ -1,5 +1,6 @@
 import { Hero } from "@/components/home/Hero";
 import { MenuPreview } from "@/components/home/MenuPreview";
+import { WeekendBanner } from "@/components/home/WeekendBanner";
 import { ProductCard } from "@/components/menu/ProductCard";
 import { PageSection, SectionDivider } from "@/components/layout/SectionDivider";
 import { CateringSection } from "@/components/reservas/CateringSection";
@@ -20,6 +21,7 @@ export default function HomePage() {
   return (
     <>
       <Hero config={config} />
+      <WeekendBanner whatsappNumber={config.whatsapp_number} />
 
       <PageSection>
         <div className="page-container">

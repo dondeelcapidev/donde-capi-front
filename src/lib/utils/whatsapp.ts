@@ -10,7 +10,9 @@ export function buildWhatsAppUrl(
 const CATEGORY_ORDER_PHRASE: Record<string, string> = {
   antojitos: "un antojito",
   tamales: "un tamal",
+  pizza: "una pizza",
   especiales: "un plato especial",
+  bebidas: "una bebida",
 };
 
 export function buildProductOrderMessage(
@@ -27,4 +29,8 @@ export function buildCateringMessage(): string {
 
 export function buildDatesMessage(): string {
   return "Hola Capi, quiero consultar las fechas disponibles para catering";
+}
+
+export function buildWeekendMenuInquiryMessage(): string {
+  return "Hola Capi, quiero saber el menú especial de este fin de semana";
 }
